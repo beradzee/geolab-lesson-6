@@ -1,0 +1,223 @@
+body {
+    height: 1500px;
+}
+.wrapper-box {
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+    position: relative;
+    transition: all 0.5s linear 0.5s;
+}
+.child-box {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    transition: all 0.5s linear 0.5s;
+}
+/* hover --------------------------------------------------------------*/
+.wrapper-box:hover {
+    background-color: blue;
+}
+.child-box:hover {
+    background-color: lightblue;
+    transform: translate(-50%,-50%) rotate(0deg);
+}
+/* keyframe animation example-----------------------------------------------------*/
+.chat-icon {
+    width: 100px;
+    animation: chatanimationnew 5s infinite 2s alternate;
+}
+/* keyframe ------------------------------------------------------ */
+@keyframes chatanimationnew {
+    0% {transform: translateX(200px);}
+    25% {transform: translateX(400px);}
+    50% {transform: translateX(600px);}
+    75% {transform: translateX(800px);}
+    100% {transform: translateX(1000px);}
+}
+.div {
+    width: 300px;
+    height: 200px;
+    border-radius: 20px 50px 5px 50px;
+    background-color: blueviolet;
+    margin-left: 50px;
+    box-shadow: 10px 10px 20px black;
+    opacity: 100%;
+    margin-bottom: 100px;
+    
+}
+/* test -----------------------------------------------*/
+.button-section {
+    margin-top: 150px;
+}
+.button {
+    width: 150px;
+    height: 60px;
+    background-color: darkorchid;
+    margin-left: 200px;
+    position: relative;
+    border-radius: 20px;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px black;
+    animation:  button 1.5s 0.1s 1;
+    color: white;
+    display: inline-block;
+    transition: all 0.5s linear 0.1s;
+    vertical-align: middle;
+}
+.button1 {
+    width: 150px;
+    height: 60px;
+    background-color: brown;
+    position: relative;
+    border-radius: 20px;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px black;
+    animation:  button 1.5s 0.1s 1;
+    color: white;
+    display: inline-block;
+    margin-left: 20px;
+    transition: all 0.5s linear 0.1s;
+    vertical-align: middle;
+}
+.button2 {
+    width: 150px;
+    height: 60px;
+    background-color: darkgoldenrod;
+    position: relative;
+    border-radius: 20px;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px black;
+    animation:  button 1.5s 0.1s 1;
+    color: white;
+    display: inline-block;
+    margin-left: 20px;
+    transition: all 0.5s linear 0.1s;
+    vertical-align: middle;
+}
+.button3 {
+    width: 150px;
+    height: 60px;
+    background-color: darkgreen;
+    position: relative;
+    border-radius: 20px;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px black;
+    animation:  button 1.5s 0.1s 1;
+    color: white;
+    display: inline-block;
+    margin-left: 20px;
+    transition: all 0.5s linear 0.1s;
+    vertical-align: middle;
+}
+.button4 {
+    width: 150px;
+    height: 60px;
+    background-color: darkblue;
+    position: relative;
+    border-radius: 20px;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px black;
+    animation:  button 1.5s 0.1s 1;
+    color: white;
+    display: inline-block;
+    margin-left: 20px;
+    transition: all 0.5s linear 0.1s;
+    vertical-align: middle;
+}
+.p-test1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.p-test {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+@keyframes button {
+    0% {transform: translatey(30px);
+        opacity: 0%;}
+    100% { transform: translatey(0);
+        opacity: 100%;}
+}
+.button-2 {
+    width: 150px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px black;
+    transition: all 0.5s linear 0.3s;
+    position: relative;
+    transform: translate(50px,50px);
+}
+.p-test2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.button-2:hover {
+    width: 180px;
+    height: 80px;
+    border-radius: 30px;
+}
+.zoom:hover {
+    width: 170px;
+    height: 80px;
+    border-radius: 25px;
+}
+.ki {
+    width: 150px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+    font-size: 20px;
+    transition: all 0.5s linear 0.3s;
+    animation: ki 1.5s 0.1s 1;
+    opacity: 100%;
+    position: relative;
+}
+.kip {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+@keyframes ki {
+    0% {width: 150px;
+        height: 60px;
+        background-color: red;
+        color: white;
+        margin-top: 100px;
+        margin-left: 100px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px black;
+        font-size: 20px;
+        opacity: 0%;
+        transform: translatey(30px);}
+
+    100%{width: 150px;
+        height: 60px;
+        background-color: red;
+        color: white;
+        margin-top: 100px;
+        margin-left: 100px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px black;
+        font-size: 20px;       
+        opacity: 100%;
+        transform: translatey(0);}
+}
